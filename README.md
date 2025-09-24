@@ -1,19 +1,19 @@
 # Wind Turbine Failure Prediction – EDA Project
-BUSSINESS PROBLEM
+#BUSSINESS PROBLEM:-
 Business Problem
     Wind turbine failures cause unexpected downtime, leading to revenue loss and increased maintenance costs.
     Predicting failures in advance can reduce operational disruptions.
     
-Business Objective
+#Business Objective:-
     Minimize downtime from failures
     Minimize maintenance cost
     Maximize power generation
 
-Business Constraints
+#Business Constraints:-
     Minimize false alarms
     Minimize data collection cost
 
- Dataset Description
+#Dataset Description:-
 Column Descriptions and Units:
 
 1. date  
@@ -96,8 +96,7 @@ Column Descriptions and Units:
     - Insights: Probabilistically determined based on extreme values of **power, temperature, and rotor speed**.
 Size: ~20,000+ records
 
-PROJECT WORK FLOW
-
+#PROJECT WORK FLOW:-
 1️⃣ Data Cleaning
 Converted date column to datetime format.
 Removed duplicates (~2% of data).
@@ -127,7 +126,7 @@ Failures clustered in months with extreme temperatures.
 4️⃣ Class Imbalance Check
 Failures (Failure_status=1) represent only 8% of data → Imbalanced dataset.
 
-KEY METRICS  INSIGHTS
+#KEY METRICS  INSIGHTS:-
 ✔ Average Power Output: ~1200 kW
 ✔ Wind Speed vs Power Correlation: 0.85 (as expected from turbine physics)
 ✔ Failure Distribution:
@@ -138,26 +137,26 @@ Bearing/Nacelle overheating
 ✔ Outlier Handling: ~3% of extreme values treated with Winsorization
 ✔ Missing Values Imputed: 4% across numerical features
 
-VISUALIZATIONS
+#VISUALIZATIONS:-
 Histogram & Boxplot → Distribution & Outliers
 Scatterplot → Wind Speed vs Power
 Violinplot → Failure vs Power
 Correlation Heatmap
 Time Series Trends (Yearly overlay)
 
-DELIVERABLES
+#DELIVERABLES:-
 Clean Dataset: wind_turbine_cleaned.csv
 Refactored EDA Script: wind_turbine_project.py
 Visualization Report: Power, Wind Speed, Failures
 Profiling Report: Wind_Turbine_Profile_Report.html (via ydata_profiling)
 
-TECH STACK
+#TECH STACK:-
 Python (Pandas, Numpy, Scikit-learn, Feature-Engine)
 Visualization: Matplotlib, Seaborn, Plotly, Bokeh
 Profiling: D-Tale, ydata_profiling
 Export: CSV for clean datasets
 
-AUTHOR
+#AUTHOR:-
 👤 BASTIPADU ARAVINDTEJA
  Aspiring Data Analyst
 📧 Contact: aravindtejaprabha@gmail.com
