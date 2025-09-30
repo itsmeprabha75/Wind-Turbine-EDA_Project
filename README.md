@@ -1,6 +1,6 @@
 # Wind Turbine Failure Prediction – EDA Project
 #BUSSINESS PROBLEM:-
-Business Problem
+
     Wind turbine failures cause unexpected downtime, leading to revenue loss and increased maintenance costs.
     Predicting failures in advance can reduce operational disruptions.
     
